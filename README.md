@@ -6,6 +6,7 @@
 * [Technologie](#technologie)
 * [Intrukcja uruchomienia](#instrukcja-uruchomienia)
 * [Intrukcja użytkowania](#instrukcja-użytkowania)
+* [Możliwe rozszerzenia](#możliwe-rozszerzenia)
 
 ## Cel zadania
 
@@ -188,3 +189,9 @@ http://localhost:8080/stars?username=allegro
 ```json
 6367
 ```
+
+## Możliwe rozszerzenia
+
+* Dodanie sortowania repozytoriów przy ich listowaniu
+* Dodanie podziału na strony przy listowaniu
+* Wprowadzenie HATEOAS
