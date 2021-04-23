@@ -43,6 +43,7 @@ class GithubRepositoryControllerTest {
         when(spy.getResponseEntity(username)).thenReturn(new ResponseEntity<>(repositories, HttpStatus.OK));
         // then
         assertThat(spy.getStars(username).getBody()).isEqualTo(3);
+        assertThat(spy.getStars(username).getStatusCode()).isEqualTo(HttpStatus.OK);
     }
 
     @Test
@@ -58,5 +59,6 @@ class GithubRepositoryControllerTest {
         when(spy.getResponseEntity(username)).thenReturn(new ResponseEntity<>(repositories, HttpStatus.OK));
         //then
         assertEquals(spy.listRepositories(username).getBody(), repositories);
+        assertThat(spy.listRepositories(username).getStatusCode()).isEqualTo(HttpStatus.OK);
     }
 }
