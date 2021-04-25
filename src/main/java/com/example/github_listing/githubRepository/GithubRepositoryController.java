@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @AllArgsConstructor
-public class GithubRepositoryController {
+class GithubRepositoryController {
 
     private final GithubRepositoryApi api;
 

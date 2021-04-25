@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class GithubRepository implements Serializable {
+class GithubRepository implements Serializable {
     private String name;
     private int stargazers_count;
 
