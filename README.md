@@ -5,6 +5,7 @@
 * [Cel zadania](#cel-zadania)
 * [Technologie](#technologie)
 * [Intrukcja uruchomienia](#instrukcja-uruchomienia)
+* [Intrukcja uruchomienia testów](#instrukcja-uruchomienia-testów)
 * [Intrukcja użytkowania](#instrukcja-użytkowania)
 * [Możliwe rozszerzenia](#możliwe-rozszerzenia)
 
@@ -22,6 +23,10 @@ Aplikacja stworzona w Springu. Testowana za pomocą JUnit, AssertJ i Mockito.
 ## Instrukcja uruchomienia
 
 `./mvnw spring-boot:run`
+
+## Instrukcja uruchomienia testów
+
+`./mvnw test`
 
 ## Instrukcja użytkowania
 

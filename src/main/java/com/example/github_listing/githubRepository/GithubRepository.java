@@ -1,4 +1,4 @@
-package com.example.github_listing;
+package com.example.github_listing.githubRepository;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class GithubRepository implements Serializable{
+public class GithubRepository implements Serializable {
     private String name;
     private int stargazers_count;
 
